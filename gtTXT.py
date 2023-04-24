@@ -3,6 +3,11 @@ import os
 import glob
 import natsort
 
+# gt.txt (Input)
+# images/0/0.jpg	혃
+# images/0/1.jpg	대입
+# images/0/2.jpg	갡
+
 mapping = {}
 f = open('/media/cvpr/CM_24/synthtiger/results/gt.txt', 'r')
 
@@ -14,6 +19,11 @@ for line in f.readlines():
 
  # new_name.rsplit('/', 1)[1]
 print(mapping[k])
+
+# Output
+# 0.jpg
+# 1.jpg
+# 2.jpg
 
 base_path = '/media/cvpr/CM_24/synthtiger/results/'
 base_path1 = '/media/cvpr/CM_24/KR_2M/train/images'
