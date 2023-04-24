@@ -4,7 +4,7 @@ import re
 import glob
 
 # Input (number of images i1,i2,i3)
-# Output (labels.json file contains {"abc_1.jpg": "abc"})
+# Output (labels.json file contains {"인사 과학자 강당 제대하다_729.jpg": "인사 과학자 강당 제대하다", "금연 기술 행복 문밖_464.jpg": "금연 기술 행복 문밖"})
 
 
 path = "/media/cvpr/CM_1/ocr_kor/data/generator/TextRecognitionDataGenerator/out/images/"
