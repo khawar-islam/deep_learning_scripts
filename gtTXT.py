@@ -3,7 +3,7 @@ import os
 import glob
 import natsort
 
-# gt.txt (Input)
+# gt.txt (Input) there are 1000 folder each folder consist of 10000 images
 # images/0/0.jpg	혃
 # images/0/1.jpg	대입
 # images/0/2.jpg	갡
